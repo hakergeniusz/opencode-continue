@@ -1,0 +1,27 @@
+{
+  "name": "opencode-continue",
+  "version": "0.1.0",
+  "description": "Adds /continue: resumes the previous agent run where it left off, without re-describing the task.",
+  "private": false,
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "continue",
+    "resume",
+    "command"
+  ],
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "@opencode/plugin": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}
